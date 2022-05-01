@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="490.0" prefWidth="878.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.AccueilController">
+   <children>
+      <AnchorPane fx:id="anchorContent" layoutX="175.0" layoutY="26.0" prefHeight="485.0" prefWidth="610.0" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="178.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="26.0" />
+      <Button fx:id="mnuDeconnexion" layoutX="13.0" layoutY="153.0" mnemonicParsing="false" onAction="#handleDeconnexion" prefHeight="34.0" prefWidth="115.0" text="Déconnexion">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="menuProfesseur" layoutX="13.0" layoutY="103.0" mnemonicParsing="false" onAction="#handleIntProfesseur" prefHeight="34.0" prefWidth="115.0" text="Professeur">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="menuClasse" layoutX="13.0" layoutY="57.0" mnemonicParsing="false" onAction="#handleClickMenuClasse" prefHeight="34.0" prefWidth="115.0" text="Classe">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="menuInscription" layoutX="13.0" layoutY="205.0" mnemonicParsing="false" onAction="#handleInscription" prefHeight="34.0" prefWidth="115.0" text="Inscription">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
